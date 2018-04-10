@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #f4f4f4;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 100%;
+}
+.top-banner{
+
+}
+.banner-pic{
+    width: 100%;
+}
+.banner-pic img{
+    width: 100%;
+}
+.top-search{
+    max-width: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    background-image: linear-gradient(-180deg,rgba(0,0,0,.3) 0,rgba(0,0,0,0) 100%);
+}
+.openItems {
+    position: absolute;
+    left: 0.6rem;
+    top: 0.6rem;
+}
+.openItems img{
+    width: 90%;
+}
+.search-container{
+    margin: .6rem auto;
+    width: 70%;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.search-container a {
+    display: block;
+    width: 100%;
+    height: 1.6rem;
+    background-color: #fff;
+    line-height: 1.5rem;
+    border-radius: .05rem;
+    font-size: .14rem;
+    color: #757575;
+    letter-spacing: -.15px;
+    box-sizing: border-box;
+    padding-left: .096rem;
+}
+.search-container a img{
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -.30em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.cartItems{
+    display: block;
+    position: absolute;
+    top: .6rem;
+    right: .6rem;
+}
+.cartItems img{
+    width: 80%;
+}
+.userCounts{
+    height: 4rem;
+    background: #fff;
+    margin-bottom: .5rem;
+    margin-top: -0.2rem;
+}
+.box{
+    float: left;
+    text-align: center;
+    width: 50%;
+    padding-top: .6rem;
+    display: block;
+}
+.number{
+    font-size: 17px;
+    color: #333;
+    letter-spacing: 0;
+    line-height: .21rem;
+    font-weight: 600;
+}
+.text{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 0;
+    line-height: .5rem;
+    margin-top: .5rem;
+}
+.hotBrand {
+    height: 15rem;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: .5rem;
+}
+.hotBrand h2.newTitle {
+    margin-bottom: 0;
+}
+h2.newTitle {
+    font-family: PingFangSC-Regular;
+    font-size: 15px;
+    color: #333;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    text-align: left;
+}
+a:visited {
+    text-decoration: none;
+}
+a.viewAll {
+    display: block;
+    height: .18rem;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #4a90e2;
+    letter-spacing: 0;
+    line-height: .18rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+.hotBrand ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.hotBrand ul li a img {
+    width: 30%;
+    display: inline;
+}
+.hotBrand ul li a span {
+    font-family: PingFangSC-Regular;
+    padding-top: .5rem;
+    font-size: 13px;
+    color: #333;
+    letter-spacing: 0;
+    line-height: .17rem;
+    display: block;
+}
+.hotMachine {
+    background-color: #fff;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+    height: 20rem;
+}
+.product-list{
+    padding: 0 .15rem;
+}
+.product-list .product-item{
+    text-align: center;
+    float: left;
+    width: 49%;
+
+}
+
+.product-list .product-item:first-child{
+    border-right: #cccccc solid 1px;
+}
+
+.product-list .product-item img{
+    width: 50%;
+}
+.product-list .product-item .productName {
+    color: #333;
+    letter-spacing: -.2px;
+    font-size: 0.5rem;
+    height: 1.5rem;
+    margin: .07rem auto 0;
+    overflow: hidden;
+}
+.productPrice .productText {
+    color: #666;
+    font-size: 0.5rem;
+    line-height: .17rem;
+    margin-top: .04rem;
+}
+.productPrice .price {
+    color: #fc6232;
+    font-size: 0.5rem;
+    line-height: .17rem;
+}
+.buyBtn {
+    font-size: 0.5rem;
+    display: block;
+    width: 70%;
+    height: 1.5rem;
+    margin: 0.5rem auto 0;
+    background: #fe1c1d;
+    border-radius: 2px;
+    color: white;
+    line-height: 1.5rem;
+}
+.serve img{
+    width: 100%;
+}
+.footer{
+    font-size: 0.5rem;
+    text-align: center;
+    height: 3rem;
+    padding-top: 2rem;
+}
